@@ -1,16 +1,15 @@
 package com.jimenez.deguzman;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class RoundTwo extends AppCompatActivity {
-
+public class RoundFour extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.roundtwo);
+        setContentView(R.layout.roundfour);
     }
 
 //    public void correctans (View v) {
@@ -19,7 +18,7 @@ public class RoundTwo extends AppCompatActivity {
 //    }
 
     public void wrongans (View v) {
-        Intent i = new Intent(this, WrongAnswerTwo.class);
+        Intent i = new Intent(this, WrongAnswerFour.class);
         startActivity(i);
     }
 }
