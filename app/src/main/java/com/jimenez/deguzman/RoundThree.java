@@ -12,10 +12,10 @@ public class RoundThree extends AppCompatActivity{
         setContentView(R.layout.roundthree);
     }
 
-//    public void correctans (View v) {
-//        Intent i = new Intent(this, CorrectAnswer.class);
-//        startActivity(i);
-//    }
+    public void correctans (View v) {
+        Intent i = new Intent(this, CorrectAnswerThree.class);
+        startActivity(i);
+    }
 
     public void wrongans (View v) {
         Intent i = new Intent(this, WrongAnswerThree.class);

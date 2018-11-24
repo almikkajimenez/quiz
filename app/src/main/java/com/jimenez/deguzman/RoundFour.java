@@ -12,10 +12,10 @@ public class RoundFour extends AppCompatActivity {
         setContentView(R.layout.roundfour);
     }
 
-//    public void correctans (View v) {
-//        Intent i = new Intent(this, CorrectAnswer.class);
-//        startActivity(i);
-//    }
+    public void correctans (View v) {
+        Intent i = new Intent(this, CorrectAnswerFour.class);
+        startActivity(i);
+    }
 
     public void wrongans (View v) {
         Intent i = new Intent(this, WrongAnswerFour.class);

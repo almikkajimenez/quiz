@@ -152,6 +152,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/choicesbuttonn"
+        android:onClick="correctans"
         android:text="Sucrose"
         android:textColor="#fff"
         android:textSize="20sp"

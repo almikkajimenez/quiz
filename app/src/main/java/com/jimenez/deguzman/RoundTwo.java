@@ -13,10 +13,10 @@ public class RoundTwo extends AppCompatActivity {
         setContentView(R.layout.roundtwo);
     }
 
-//    public void correctans (View v) {
-//        Intent i = new Intent(this, CorrectAnswer.class);
-//        startActivity(i);
-//    }
+    public void correctans (View v) {
+        Intent i = new Intent(this, CorrectAnswerTwo.class);
+        startActivity(i);
+    }
 
     public void wrongans (View v) {
         Intent i = new Intent(this, WrongAnswerTwo.class);

@@ -17,8 +17,8 @@ public class RoundSeven extends AppCompatActivity{
 //        startActivity(i);
 //    }
 
-//    public void wrongans (View v) {
-//        Intent i = new Intent(this, WrongAnswerSeven.class);
-//        startActivity(i);
-//    }
+    public void wrongans (View v) {
+        Intent i = new Intent(this, WrongAnswerSeven.class);
+        startActivity(i);
+    }
 }

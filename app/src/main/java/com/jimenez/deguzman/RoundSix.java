@@ -12,10 +12,10 @@ public class RoundSix extends AppCompatActivity{
         setContentView(R.layout.roundsix);
     }
 
-//    public void correctans (View v) {
-//        Intent i = new Intent(this, CorrectAnswer.class);
-//        startActivity(i);
-//    }
+    public void correctans (View v) {
+        Intent i = new Intent(this, CorrectAnswerSix.class);
+        startActivity(i);
+    }
 
     public void wrongans (View v) {
         Intent i = new Intent(this, WrongAnswerSix.class);

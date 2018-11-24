@@ -102,6 +102,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/choicesbutton"
+        android:onClick="wrongans"
         android:text="lemon"
         android:textColor="#fff"
         android:textSize="20sp"
@@ -146,6 +147,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/choicesbuttonn"
+        android:onClick="wrongans"
         android:text="pineapple"
         android:textColor="#fff"
         android:textSize="20sp"
@@ -159,7 +161,7 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="170dp"
+        android:layout_width="167dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -168,6 +170,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/choicesbutton"
+        android:onClick="wrongans"
         android:text="mandarin"
         android:textColor="#fff"
         android:textSize="20sp"

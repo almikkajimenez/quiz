@@ -12,10 +12,10 @@ public class RoundFive extends AppCompatActivity {
         setContentView(R.layout.roundfive);
     }
 
-//    public void correctans (View v) {
-//        Intent i = new Intent(this, CorrectAnswer.class);
-//        startActivity(i);
-//    }
+    public void correctans (View v) {
+        Intent i = new Intent(this, CorrectAnswerFive.class);
+        startActivity(i);
+    }
 
     public void wrongans (View v) {
         Intent i = new Intent(this, WrongAnswerFive.class);
