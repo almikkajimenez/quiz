@@ -15,7 +15,9 @@ public class QuestLevelPage extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(QuestLevelPage.this, RoundOne.class);
+                Intent intent = new Intent(QuestLevelPage.this, Round.class);
+                intent.putExtra("points", 0);
+                intent.putExtra("round", 1);
                 QuestLevelPage.this.startActivity(intent);
                 QuestLevelPage.this.finish();
             }

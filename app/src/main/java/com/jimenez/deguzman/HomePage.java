@@ -17,4 +17,9 @@ public class HomePage extends AppCompatActivity {
         Intent i = new Intent(this, QuestLevelPage.class);
         startActivity(i);
     }
+
+    public void highscore (View v){
+        Intent i = new Intent(this, HighScores.class);
+        startActivity(i);
+    }
 }
