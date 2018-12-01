@@ -63,6 +63,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/roundedbutton"
+        android:onClick="highscore"
         android:text="H I G H S C O R E"
         android:textColor="#e5d2da"
         app:layout_constraintBottom_toBottomOf="parent"
