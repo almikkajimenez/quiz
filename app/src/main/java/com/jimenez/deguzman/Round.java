@@ -72,7 +72,6 @@ public class Round extends AppCompatActivity {
             startActivity(i);
             finish();
         }
-
     }
 
     public void choice2btn (View v){
@@ -92,7 +91,6 @@ public class Round extends AppCompatActivity {
             startActivity(i);
             finish();
         }
-
     }
 
     public void choice3btn (View v){
@@ -112,7 +110,6 @@ public class Round extends AppCompatActivity {
             startActivity(i);
             finish();
         }
-
     }
 
     public void choice4btn (View v){
@@ -132,7 +129,6 @@ public class Round extends AppCompatActivity {
             startActivity(i);
             finish();
         }
-
     }
 
 

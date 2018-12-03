@@ -24,7 +24,7 @@ public class HighScores extends AppCompatActivity {
         Cursor c = SQLDatabase.rawQuery("SELECT * FROM highscore WHERE id<=?", new String[] {"10"});
         scores = (TextView)findViewById(R.id.scores);
         while(c.moveToNext()) {
-            score_total = score_total + c.getString(c.getColumnIndex("name")) + " --------- "+  c.getString(c.getColumnIndex("points"))+"\n";
+            score_total = score_total + c.getString(c.getColumnIndex("name")) + " ----- "+  c.getString(c.getColumnIndex("points"))+"\n";
         }
         scores.setText(score_total);
     }
