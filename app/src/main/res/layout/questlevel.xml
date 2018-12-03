@@ -31,24 +31,6 @@
         app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@drawable/ql" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="232dp"
-        android:layout_height="425dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
-        app:srcCompat="@drawable/level" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -69,5 +51,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="262dp"
+        android:layout_height="498dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="
+        15           1 MILLION
+        14           500,000
+        13           250,000
+        12           125,000
+        11           64,000
+        10           32,000
+        9             16,000
+        8             8,000
+        7             4,000
+        6             2,000
+        5             1,000
+        4             500
+        3             300
+        2             200
+        1             100"
+        android:textColor="#5f456c"
+        android:textSize="24sp"
+        app:fontFamily="@font/gilroybold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
 
 </android.support.constraint.ConstraintLayout>
